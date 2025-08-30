@@ -1,0 +1,11 @@
+# wrangler.toml
+name = "bondfire-backend"
+main = "worker.js"
+compatibility_date = "2024-11-20"
+
+# Bind your KV namespace
+[[kv_namespaces]]
+binding = "WRANGLER"
+id = "e3393d91bf0145c5b25410eff65d215d"
+# preview_id can be different if you use wrangler dev
+# preview_id = "REPLACE_WITH_PREVIEW_NAMESPACE_ID"
